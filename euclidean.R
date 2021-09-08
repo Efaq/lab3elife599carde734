@@ -1,3 +1,8 @@
-euclidean = function(){
-  stop()
+euclidean = function(a, b){
+  stopifnot((a%%1) + (b%%1) == 0) #check if both numbers are integers (even if their R type is double!!!)
+  if (b == 0){
+    return(max(a,-a))
+  } else {
+    return(euclidean(b, a%%b))
+  }
 }
