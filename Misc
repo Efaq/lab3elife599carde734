@@ -1,3 +1,5 @@
 Some useful info:
 1) In order to create a remote branch through pushing a newly-created local branch, do:
 git push origin elisio_branch
+2) In order to make the newly-created remote branch be tracked by the local branch, do:
+git push origin elisio_branch
