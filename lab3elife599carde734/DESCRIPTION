@@ -3,8 +3,8 @@ Type: Package
 Title: Package for lab3 containing functions euclidean and dijkstra
 Version: 0.1
 Date: 2021-09-08
-Author: carde734 and elife599
-Maintainer: elife599@student.liu.se and carde734@student.liu.se
-Description: More will come soon!
+Authors@R: c(person("Elisio", "Quintino", email="elife599@student.liu.se", role=c("aut", "cre")),
+             person("Carolina", "Rosario", email="carde734@student.liu.se", role=c("aut")))
+Description: Package for lab3 containing functions euclidean and dijkstra
 License: Not licensed atm
 RoxygenNote: 7.1.1
