@@ -8,3 +8,6 @@ Authors@R: c(person("Elisio", "Quintino", email="elife599@student.liu.se", role=
 Description: Package for lab3 containing functions euclidean and dijkstra
 License: Not licensed atm
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
