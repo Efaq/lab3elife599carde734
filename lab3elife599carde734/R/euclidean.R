@@ -1,12 +1,13 @@
 #' Euclidean algorithm
 #'
 #' @description
-#' `euclidean` returns the Greatest Common Divisor (GCD) of the two inputs of the function
+#' \code{euclidean} returns the Greatest Common Divisor (GCD) of the two inputs of the function
 #'
 #' @param a,b Integer numbers
 #'
 #' @return the Greatest Common Divisor (GCD) of the two parameters,
 #' or throws an error if not all inputs are integers.
+#'
 #'
 #' @examples
 #' euclidean(123612, 13892347912)

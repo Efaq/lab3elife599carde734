@@ -17,7 +17,7 @@ the Greatest Common Divisor (GCD) of the two parameters,
 or throws an error if not all inputs are integers.
 }
 \description{
-`euclidean` returns the Greatest Common Divisor (GCD) of the two inputs of the function
+\code{euclidean} returns the Greatest Common Divisor (GCD) of the two inputs of the function
 }
 \details{
 The Euclidean algorithm finds the Greatest Common Divisor (GCD) of two integers.
