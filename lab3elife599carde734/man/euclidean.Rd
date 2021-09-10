@@ -2,10 +2,32 @@
 % Please edit documentation in R/euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{This is me testing roxygen documentation}
+\title{Euclidean algorithm}
+\source{
+See more at: \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+}
 \usage{
 euclidean(a, b)
 }
+\arguments{
+\item{a, b}{Integer numbers}
+}
+\value{
+the Greatest Common Divisor (GCD) of the two parameters,
+or throws an error if not all inputs are integers.
+}
 \description{
-This is me testing roxygen documentation
+`euclidean` returns the Greatest Common Divisor (GCD) of the two inputs of the function
+}
+\details{
+The Euclidean algorithm finds the Greatest Common Divisor (GCD) of two integers.
+euclidean(a, b) implements a recursive version of the algorithm.
+The arguments a and b must be integers, otherwise an error will occur.
+Note that the function works even with negative arguments.
+}
+\examples{
+euclidean(123612, 13892347912)
+euclidean(100, 1000)
+euclidean(-100, 1000)
+ 
 }
