@@ -29,5 +29,5 @@ Note that the function works even with negative arguments.
 euclidean(123612, 13892347912)
 euclidean(100, 1000)
 euclidean(-100, 1000)
- 
+
 }
