@@ -3,3 +3,8 @@ Some useful info:
 git push origin elisio_branch
 2) In order to make the newly-created remote branch be tracked by the local branch, do:
 git push origin elisio_branch
+
+__
+
+git config --global user.email "elife599@student.liu.se"
+git config --global user.name "Elisio Quintino"
