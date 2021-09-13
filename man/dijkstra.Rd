@@ -30,9 +30,10 @@ a single node as the "source" node and finds shortest paths from the source to
 all other nodes in the graph, producing a shortest-path tree.
 }
 \examples{
+## data(wiki_graph)
 
-dijkstra(graph, 1)
-dijkstra(graph, 3)
+## dijkstra(wiki_graph, 1)
+## dijkstra(wiki_graph, 3)
 
 
 }

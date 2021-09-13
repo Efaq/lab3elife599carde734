@@ -16,11 +16,11 @@
 #'
 #'
 #' @examples
+#' ## data(wiki_graph)
+#' 
+#' ## dijkstra(wiki_graph, 1)
+#' ## dijkstra(wiki_graph, 3)
 #'
-#' dijkstra(graph, 1)
-#' dijkstra(graph, 3)
-#'
-
 #'
 #' @details
 #' The algorithm exists in many variants. Dijkstra's original algorithm found
@@ -40,18 +40,12 @@
 dijkstra <- function(graph, init_node)
   
 {
-  if ((is.data.frame(graph) == "FALSE" ||
-       length(graph) != 3)  ||
-      (
-        (is.numeric(init_node) == "FALSE") ||
-        length(init_node) > 1 ||
-        init_node %in% graph[[1]] == FALSE ||
-        names(graph) != c("v1", "v2", "w")
-      ))
+  
+  
+  if (is.data.frame(graph) == FALSE ||length(graph)!=3|| (is.numeric(init_node) == FALSE) || length(init_node) > 1 ||init_node %in% graph[[1]] == FALSE || all(names(graph) != c("v1","v2","w")) || (length(graph[[1]])!=length(graph[[2]]))||(length(graph[[1]])!=length(graph[[3]])))
   {
     stop("Invalid Parameters")
   }
-  
   
   vertex <- unique(sort(graph[[1]]))
   vertex
