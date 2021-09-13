@@ -1,0 +1,16 @@
+#' wiki_graph
+#'
+#' @description
+#' \code{wiki_graph} dataset with three variables (v1, v2 and w) 
+#' that contains the edges of the graph (from v1 to v2) with the weight of the edge (w).
+#' 
+#' @format A dataframe with 18 rows and 3 variables
+#' 
+#'  
+#' @source
+#' See more at: \url{https://en.wikipedia.org/wiki/Dijkstras_algorithm}
+#'
+
+"wiki_graph"
+
+
