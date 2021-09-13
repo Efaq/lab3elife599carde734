@@ -6,7 +6,7 @@
 \alias{lab3elife599carde734-package}
 \title{lab3elife599carde734: Package for assignment 3 in Advanced R}
 \description{
-Package for assignment 3 in Advanced R, containing functions euclidean and dijkstra, as well as dataset wiki_graph
+Package for assignment 3 in Advanced R. It contains functions euclidean and dijkstra, as well as dataset wiki_graph.
 }
 \details{
 This package contains functions and dataset for Assignment 3 in Advanced R.
