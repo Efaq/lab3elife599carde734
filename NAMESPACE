@@ -1,1 +1,2 @@
 export("euclidean")
+export("dijkstra")

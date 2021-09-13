@@ -4,12 +4,14 @@
 \name{lab3elife599carde734-package}
 \alias{lab3elife599carde734}
 \alias{lab3elife599carde734-package}
-\title{lab3elife599carde734: Package for lab3 containing functions euclidean and dijkstra}
+\title{lab3elife599carde734: Package for assignment 3 in Advanced R}
 \description{
-Package for lab3 containing functions euclidean and dijkstra
+Package for assignment 3 in Advanced R, containing functions euclidean and dijkstra, as well as dataset wiki_graph
 }
 \details{
-Package for lab3 containing functions euclidean and dijkstra
+This package contains functions and dataset for Assignment 3 in Advanced R.
+It contains two functions, euclidean and dijkstra, as well as the dataset wiki_graph.
+Read more about them in the respective documentations.
 }
 \author{
 \strong{Maintainer}: Elisio Quintino \email{elife599@student.liu.se}
