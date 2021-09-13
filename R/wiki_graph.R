@@ -8,7 +8,7 @@
 #' 
 #'  
 #' @source
-#' See more at: \url{https://en.wikipedia.org/wiki/Dijkstras_algorithm}
+#' See more at: \url{https://en.wikipedia.org/wiki/Graph}
 #'
 
 wiki_graph <-

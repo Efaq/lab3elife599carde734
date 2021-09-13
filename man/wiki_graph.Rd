@@ -8,7 +8,7 @@
 A dataframe with 18 rows and 3 variables
 }
 \source{
-See more at: \url{https://en.wikipedia.org/wiki/Dijkstras_algorithm}
+See more at: \url{https://en.wikipedia.org/wiki/Graph}
 }
 \usage{
 wiki_graph
