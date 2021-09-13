@@ -6,7 +6,7 @@ Date: 2021-09-08
 Authors@R: c(person("Elisio", "Quintino", email="elife599@student.liu.se", role=c("aut", "cre")),
              person("Carolina", "Rosario", email="carde734@student.liu.se", role=c("aut")))
 Description: Package for assignment 3 in Advanced R. It contains functions euclidean and dijkstra, as well as dataset wiki_graph.
-License: MIT
+License: file LICENSE
 RoxygenNote: 7.1.1
 Suggests: 
     testthat (>= 3.0.0)
